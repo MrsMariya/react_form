@@ -8,15 +8,13 @@ import { Layout } from './components/Layout';
 
 
 function App() {
- 
-
   return (
     <div className="App">
      <Routes>
-        <Route path='/' element={<Layout />}>
+        <Route path='/react_form' element={<Layout />}>
           <Route index element={<HomePage />} />
-          <Route path='login' element={<Login />} />
-          <Route path='register' element={<Register />} />
+          <Route path='/react_form/login' element={<Login />} />
+          <Route path='/react_form/register' element={<Register />} />
         </Route>       
      </Routes>
     </div>

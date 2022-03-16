@@ -5,9 +5,9 @@ export const Layout = () => {
   return (
     <>
       <header>
-        <NavLink to={'/'}>Home</NavLink>
-        <NavLink to={'/login'}>Log in</NavLink>
-        <NavLink to={'/register'}>Register</NavLink>
+        <NavLink to={'/react_form'}>Home</NavLink>
+        <NavLink to={'/react_form/login'}>Log in</NavLink>
+        <NavLink to={'/react_form/register'}>Register</NavLink>
       </header>
       <Outlet />
       <footer>
